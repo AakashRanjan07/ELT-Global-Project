@@ -23,7 +23,7 @@ interface LabelProps {
 const renderCustomLabel = ({ name, value }: LabelProps) => `${name}: ${value}%`;
 
 
-export function ResultPage() {
+ function ResultPage() {
   return (
     <div className="px-4 sm:px-6 lg:px-8 pb-10"> 
       <Card className="max-w-[900px] mx-auto">

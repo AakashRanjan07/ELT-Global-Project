@@ -29,14 +29,16 @@ To run this project locally:
 
 1. Clone the repository:
 
-    git clone https://github.com/your-username/elt-global.git
-
+    git clone https://github.com/AakashRanjan07/ELT-Global-Project.git
+    
 2. Install dependencies:
 
+    cd elt-global
     npm install
 
 3. Run the application:
 
+    npm run dev
 
 4. Open the application in your browser at `http://localhost:3000`.
 
