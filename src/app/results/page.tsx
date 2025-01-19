@@ -15,7 +15,13 @@ const chartData = [
 ];
 
 
-const renderCustomLabel = ({ name, value }: any) => `${name}: ${value}%`;
+interface LabelProps {
+  name: string;
+  value: number;
+}
+
+const renderCustomLabel = ({ name, value }: LabelProps) => `${name}: ${value}%`;
+
 
 export function ResultPage() {
   return (

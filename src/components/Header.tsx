@@ -1,5 +1,5 @@
 "use client";
-import { Sun, Moon, Bell, User, HelpCircle } from "lucide-react";
+import { Sun, Moon, Bell, HelpCircle } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 import Icon from "../../public/Icon.png";
